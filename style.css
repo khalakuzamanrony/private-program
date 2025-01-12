@@ -1,7 +1,18 @@
-body {
+body {  
     font-family: 'Poppins', sans-serif;
     /* background-color: #e7f4ff; */
-    background-color: #2d283e;
+    background-color: #222629;
+    background-color: #990011;
+    background-color: #31473A;
+    background-color: #4a6163;
+    background-color: #161b40;
+    background-color: #205A28;
+    background-color: #013018;
+}
+.headx{
+    /* color: #e85a4f;  */
+    color: #86c232; 
+    margin-bottom: 10px;
 }
 p{
     margin: 0px;
@@ -14,7 +25,8 @@ p{
 }
 
 .main-title {
-    font-size: 3rem;
+    font-size: 4rem;
+    color: green;
 }
 
 .slogan {
@@ -37,19 +49,17 @@ p{
     max-width: 100%;
     border-radius: 5px;
 }
-/* Responsive Adjustments */
-@media (max-width: 768px) {
 body{
-  
-background-color: #112d32;
+    
+    /* background-color: #112d32; */
 
-}
-#cardbg{
-   /* background-color: #f8f9fa;
-   background-color: #e7f4ff; */
-   /* box-shadow: inset 0 0em 0em rgba(200, 120, 0, 0.062), 0 0 0 0px white, 0.3em 0.3em 1em rgba(124, 124, 124, 0.6); */
+    }
+    #cardbg{
+    /* background-color: #f8f9fa;
+    background-color: #e7f4ff; */
+    /* box-shadow: inset 0 0em 0em rgba(200, 120, 0, 0.062), 0 0 0 0px white, 0.3em 0.3em 1em rgba(124, 124, 124, 0.6); */
 
-}
+    }
     .main-title {
         font-size: 2rem;
     }
@@ -68,9 +78,7 @@ background-color: #112d32;
     section {
         /* text-align: center; */
     }
-.teacher.uni{
-    margin-bottom: 5px;
-}
+
     .row .col-md-6 {
         flex: 0 0 100%;
         max-width: 100%;
@@ -83,20 +91,18 @@ background-color: #112d32;
     iframe {
         height: 300px;
     }
-    #px{
-        color: #d10404 !important;
+    .cimg{
+        height: 50%;
+        width: 50%;
     }
     .px{
         color: #cfcfcf !important;
     }
 
-    .headx{
-        color: #e85a4f; 
+
+    .txt{
+        color: #cfcfcf;
     }
-}
-.txt{
-    color: #cfcfcf;
-}
     #bg{
         background-color: transparent;
        
@@ -105,10 +111,95 @@ background-color: #112d32;
         background-color: transparent;
     
     }
-    #shadow{
-        box-shadow: #0000007a 18px 11px 20px 2px !important;
-    }
-    .shadow{
-        box-shadow: #0000007a 18px 11px 20px 2px !important;
 
+    .shadow{
+        box-shadow: #0000007a 6px 10px 20px 2px !important;
+    }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    body{
+    
+    /* background-color: #112d32; */
+
+    }
+    #cardbg{
+    /* background-color: #f8f9fa;
+    background-color: #e7f4ff; */
+    /* box-shadow: inset 0 0em 0em rgba(200, 120, 0, 0.062), 0 0 0 0px white, 0.3em 0.3em 1em rgba(124, 124, 124, 0.6); */
+
+    }
+    .main-title {
+        font-size: 2rem;
+    }
+
+    .slogan {
+        font-size: 1rem;
+    }
+
+    .number-overlay {
+        font-size: 3rem;
+        top: -60px;
+        left: 10px;
+        /* visibility: hidden; */
+    }
+
+    section {
+        /* text-align: center; */
+    }
+    .teacher.uni{
+        margin-bottom: 5px;
+    }
+    .row .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .table {
+        font-size: 0.8rem;
+    }
+
+    iframe {
+        height: 300px;
+    }
+    .px{
+        color: #cfcfcf !important;
+    }
+
+    .headx{
+        color: #e85a4f; 
+        color: #eeeeee; 
+        color: #86c232; 
+        color: #f17a7e; 
+ 
+
+        text-decoration: none;
+    }
+    .txt{
+        color: #cfcfcf;
+    }
+    #bg{
+        background-color: transparent;
+       
+    }
+    .bg{
+        background-color: transparent;
+    
+    }
+    .trans{
+        background-color: transparent;
+    
+    }
+
+    .shadow{
+        box-shadow: #0000007a 6px 10px 20px 2px !important;
+    }
+    .number-overlay{
+        color: #a767ff;
+
+    }
+    .cimg{
+        height: 100%;
+        width: 100%;
+    }
 }
