@@ -8,6 +8,7 @@ body {
     background-color: #161b40;
     background-color: #205A28;
     background-color: #013018;
+    background-color: #2c2b30;
 }
 .headx{
     /* color: #e85a4f;  */
@@ -35,13 +36,12 @@ p{
 }
 
 .number-overlay {
-    font-size: 6rem;
+    font-size: 10rem;
     font-weight: bold;
-    color: red;
     position: absolute;
-    opacity: 0.3;
+    opacity: 0.5;
     z-index: -1;
-    top: -120px;
+    top: -130px;
 
 }
 
@@ -169,8 +169,9 @@ body{
     .headx{
         color: #e85a4f; 
         color: #eeeeee; 
-        color: #86c232; 
+
         color: #f17a7e; 
+        color: #86c232; 
  
 
         text-decoration: none;
@@ -195,7 +196,14 @@ body{
         box-shadow: #0000007a 6px 10px 20px 2px !important;
     }
     .number-overlay{
-        color: #a767ff;
+        color: #ffffff;
+        font-size: 4rem;
+        font-weight: bold;
+        position: absolute;
+        opacity: 0.1;
+        z-index: -1;
+        top: -81px;
+    }
 
     }
     .cimg{
