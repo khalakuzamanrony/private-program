@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #e7f4ff;
+    /* background-color: #e7f4ff; */
+    background-color: #2d283e;
 }
 p{
     margin: 0px;
@@ -9,7 +10,7 @@ p{
     text-align: center;
     padding: 10px 20px;
     margin-top: 15px;
-    background: #f8f9fa;
+    /* background: #f8f9fa; */
 }
 
 .main-title {
@@ -40,12 +41,12 @@ p{
 @media (max-width: 768px) {
 body{
   
-
+background-color: #112d32;
 
 }
 #cardbg{
-   background-color: #f8f9fa;
-   background-color: #e7f4ff;
+   /* background-color: #f8f9fa;
+   background-color: #e7f4ff; */
    /* box-shadow: inset 0 0em 0em rgba(200, 120, 0, 0.062), 0 0 0 0px white, 0.3em 0.3em 1em rgba(124, 124, 124, 0.6); */
 
 }
@@ -82,4 +83,32 @@ body{
     iframe {
         height: 300px;
     }
+    #px{
+        color: #d10404 !important;
+    }
+    .px{
+        color: #cfcfcf !important;
+    }
+
+    .headx{
+        color: #e85a4f; 
+    }
+}
+.txt{
+    color: #cfcfcf;
+}
+    #bg{
+        background-color: transparent;
+       
+    }
+    .bg{
+        background-color: transparent;
+    
+    }
+    #shadow{
+        box-shadow: #0000007a 18px 11px 20px 2px !important;
+    }
+    .shadow{
+        box-shadow: #0000007a 18px 11px 20px 2px !important;
+
 }
