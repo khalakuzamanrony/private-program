@@ -28,6 +28,7 @@ p{
 .main-title {
     font-size: 4rem;
     color: green;
+    margin-bottom: 25px;
 }
 
 .slogan {
@@ -60,9 +61,6 @@ body{
     /* box-shadow: inset 0 0em 0em rgba(200, 120, 0, 0.062), 0 0 0 0px white, 0.3em 0.3em 1em rgba(124, 124, 124, 0.6); */
 
     }
-    .main-title {
-        font-size: 2rem;
-    }
 
     .slogan {
         font-size: 1rem;
@@ -88,13 +86,6 @@ body{
         font-size: 0.8rem;
     }
 
-    iframe {
-        height: 300px;
-    }
-    .cimg{
-        height: 50%;
-        width: 50%;
-    }
     .px{
         color: #cfcfcf !important;
     }
@@ -115,7 +106,83 @@ body{
     .shadow{
         box-shadow: #0000007a 6px 10px 20px 2px !important;
     }
+    .main-title {
+        font-size: 2rem;
+    }
 
+    .slogan {
+        font-size: 1rem;
+    }
+
+    .number-overlay {
+        font-size: 3rem;
+        top: -60px;
+        left: 10px;
+        /* visibility: hidden; */
+    }
+
+    section {
+        /* text-align: center; */
+    }
+    .teacher.uni{
+        margin-bottom: 5px;
+    }
+    .row .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .table {
+        font-size: 0.8rem;
+    }
+
+    iframe {
+        height: 500px;
+    }
+    .px{
+        color: #cfcfcf !important;
+    }
+
+    .headx{
+        color: #e85a4f; 
+        color: #eeeeee; 
+        color: #86c232; 
+        color: #f17a7e; 
+ 
+
+        text-decoration: none;
+    }
+    .txt{
+        color: #cfcfcf;
+    }
+    #bg{
+        background-color: transparent;
+    }
+    .bg{
+        background-color: transparent;
+    }
+    .trans{
+        background-color: transparent;
+    }
+
+    .shadow{
+        box-shadow: #0000007a 6px 10px 20px 2px !important;
+    }
+    .number-overlay{
+        color: #ffffff;
+        font-size: 4rem;
+        font-weight: bold;
+        position: absolute;
+        opacity: 0.1;
+        z-index: -1;
+        top: -81px;
+    }
+
+    }
+    .cimg{
+        height: 50%;
+        width: 50%;
+    }
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     body{
@@ -169,10 +236,8 @@ body{
     .headx{
         color: #e85a4f; 
         color: #eeeeee; 
-
-        
         color: #86c232; 
-color: #f17a7e; 
+        color: #f17a7e; 
  
 
         text-decoration: none;
@@ -182,15 +247,12 @@ color: #f17a7e;
     }
     #bg{
         background-color: transparent;
-       
     }
     .bg{
         background-color: transparent;
-    
     }
     .trans{
         background-color: transparent;
-    
     }
 
     .shadow{
@@ -212,3 +274,5 @@ color: #f17a7e;
         width: 100%;
     }
 }
+
+
